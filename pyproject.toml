@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ml-konkurs"
+version = "0.1.0"
+description = ""
+authors = ["yellowBunnyy <zigggin3@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_konkurs"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cryptography = "^41.0.1"
+"subprocess.run" = "^0.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
